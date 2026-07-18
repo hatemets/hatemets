@@ -27,7 +27,7 @@ $$
 $$
 
 $$
-f^* = \operatorname*{arg\,max}_f \dfrac{1}{n}\sum\limits_{i=1}^n\ln(1+fr_i)
+f^* = \underset{f}{\arg\max} \ \dfrac{1}{n}\sum\limits_{i=1}^n\ln(1+fr_i)
 $$
 
 $$
