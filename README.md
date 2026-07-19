@@ -7,11 +7,11 @@ f \in (0,1], \ \ r_i \in (-\infty, 1]
 $$
 
 $$
-1+R_n = \prod\limits_{i=1}^n (1 + fr_i) \Rightarrow \ln(1+R_n) = \ln\left(\prod\limits_{i=1}^n (1 + fr_i)\right) = \sum\limits_{i=1}^n (1+fr_i) \Rightarrow
+1+R_n = \prod\limits_{i=1}^n (1 + fr_i) \Rightarrow \ln(1+R_n) = \ln\left(\prod\limits_{i=1}^n (1 + fr_i)\right) = \sum\limits_{i=1}^n \ln(1+fr_i) \Rightarrow
 $$
 
 $$
-1+R_n=e^{\displaystyle \sum\limits_{i=1}^n (1+fr_i)} \Rightarrow R_n = e^{\displaystyle \sum\limits_{i=1}^n (1+fr_i)} - 1
+1+R_n=e^{\displaystyle \sum\limits_{i=1}^n \ln(1+fr_i)} \Rightarrow R_n = e^{\displaystyle \sum\limits_{i=1}^n \ln(1+fr_i)} - 1
 $$
 
 $$
